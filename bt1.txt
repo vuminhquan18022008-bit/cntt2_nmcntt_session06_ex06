@@ -1,0 +1,11 @@
+1.	Lệnh này sẽ xóa toàn bộ thư mục và tài liệu gốc có trong ổ C , bao gồm cả hệ điều hành window mà k đưa ra cảnh báo nào 
+2.	Quy trình thẩm định an toàn script  al 
+Soi lệnh nguy hiểm 
+Đường dẫn C:\*  nhắm thẳng vào dữ liệu gốc của ổ C . Nếu như thực thi dòng lệnh sẽ dẫn đến việc dữ liệu quan trọng ổ C bị xóa khiến máy bị đơ hoặc sẽ phải khởi động lại 
+Phần 2 : 
+1.	Viết lại script powershell 
+Sls “WARNING” water_log.txt
+2.	Xuất ra 
+Scl “WARNING” water_log.txt > incident.txt
+3.	In thông báo ra màn hình 
+Write-Host “ hoan thanh”
